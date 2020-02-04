@@ -42,6 +42,10 @@ summarise(flights,avg = mean(delayed_in_air,na.rm =TRUE))
 
 # Create a data.frame of flights headed to SeaTac ('SEA'), only including the
 # origin, destination, and the "gain_in_air" column you just created
+flights %>% 
+   filter(dest=="SEA") %>% 
+  summarize(avg_delayed = mean(delayed_in_air,na.rm = TRUE))
+
 
 SeaTac <- filter(flights,dest == "SEA") 
 
