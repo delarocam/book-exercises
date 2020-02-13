@@ -44,7 +44,7 @@ names(df_json)
 # Now a second query:
 # Create a variable `search_endpoint` that stores the endpoint used to search 
 # for repositories. (Hint: look for a "Search" endpoint in the documentation).
-
+search_endpoint <- 
 
 # Search queries require a query parameter (for what to search for). Create a 
 # `query_params` list variable that specifies an appropriate key and value for 

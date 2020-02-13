@@ -1,0 +1,10 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+I like writing **reports**
+
+```{r example}
+numbers<- runif(1:100)
+hist(numbers)```
