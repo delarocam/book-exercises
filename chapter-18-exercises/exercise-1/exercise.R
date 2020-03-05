@@ -42,7 +42,7 @@ data <- fromJSON(body)
 
 # Send the HTTP Reques to download the data
 # Extract the content and convert it from JSON
-
+View(data)
 
 # What kind of data structure did this produce? A data frame? A list?
 
